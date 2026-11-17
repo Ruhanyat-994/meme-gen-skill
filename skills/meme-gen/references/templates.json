@@ -1,0 +1,645 @@
+{
+ "_note": "Curated subset of https://api.memegen.link/templates. Run `templates --live` for all.",
+ "templates": [
+  {
+   "id": "drake",
+   "name": "Drakeposting",
+   "lines": 2,
+   "roles": [
+    "rejected option",
+    "preferred option"
+   ],
+   "shape": "preference",
+   "hint": "Two options where the second is the (funnier, often worse) choice people actually prefer.",
+   "example": [
+    "Reading the docs",
+    "Guessing until it works"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pooh",
+   "name": "Tuxedo Winnie the Pooh",
+   "lines": 2,
+   "roles": [
+    "plain version",
+    "fancy/overcomplicated version"
+   ],
+   "shape": "escalation",
+   "hint": "Plain thing vs. the same thing described pompously or overengineered.",
+   "example": [
+    "Restarting the server",
+    "Initiating a full infrastructure reconciliation"
+   ],
+   "tags": []
+  },
+  {
+   "id": "fine",
+   "name": "This Is Fine",
+   "lines": 2,
+   "roles": [
+    "calm statement",
+    "the disaster"
+   ],
+   "shape": "denial",
+   "hint": "Everything is on fire but someone insists it is okay.",
+   "example": [
+    "Production is down",
+    "It's an unexpected feature rollout"
+   ],
+   "tags": []
+  },
+  {
+   "id": "disastergirl",
+   "name": "Disaster Girl",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "what you caused"
+   ],
+   "shape": "cause-effect",
+   "hint": "A small action followed by an outsized (smiling) disaster.",
+   "example": [
+    "Fixed one small bug",
+    "Broke the whole build"
+   ],
+   "tags": []
+  },
+  {
+   "id": "woman-cat",
+   "name": "Woman Yelling at Cat",
+   "lines": 2,
+   "roles": [
+    "angry accusation",
+    "smug calm reply"
+   ],
+   "shape": "argument",
+   "hint": "Two sides arguing: an angry complaint vs. a deadpan reply.",
+   "example": [
+    "Why is it broken?!",
+    "It works on my machine"
+   ],
+   "tags": []
+  },
+  {
+   "id": "harold",
+   "name": "Hide the Pain Harold",
+   "lines": 2,
+   "roles": [
+    "cheerful setup",
+    "painful truth"
+   ],
+   "shape": "forced-smile",
+   "hint": "Smiling through something that hurts.",
+   "example": [
+    "My pipeline is green",
+    "My mental health is red"
+   ],
+   "tags": []
+  },
+  {
+   "id": "rollsafe",
+   "name": "Roll Safe (Think About It)",
+   "lines": 2,
+   "roles": [
+    "clever-sounding premise",
+    "smug 'logic'"
+   ],
+   "shape": "bad-logic",
+   "hint": "Galaxy-brain 'logic' that dodges the actual problem.",
+   "example": [
+    "Can't have bugs",
+    "If you don't write tests"
+   ],
+   "tags": []
+  },
+  {
+   "id": "fry",
+   "name": "Futurama Fry (Not Sure If)",
+   "lines": 2,
+   "roles": [
+    "not sure if X",
+    "or Y"
+   ],
+   "shape": "doubt",
+   "hint": "'Not sure if A or B' where B is the cynical explanation.",
+   "example": [
+    "Not sure if it's a cache issue",
+    "Or if I'm just tired"
+   ],
+   "tags": []
+  },
+  {
+   "id": "success",
+   "name": "Success Kid",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "triumphant punchline"
+   ],
+   "shape": "small-win",
+   "hint": "A tiny, absurd victory celebrated.",
+   "example": [
+    "Build passed first try",
+    "Didn't touch anything"
+   ],
+   "tags": []
+  },
+  {
+   "id": "philosoraptor",
+   "name": "Philosoraptor",
+   "lines": 2,
+   "roles": [
+    "question setup",
+    "absurd conclusion"
+   ],
+   "shape": "shower-thought",
+   "hint": "A fake-deep question or paradox.",
+   "example": [
+    "If a test fails in CI",
+    "And nobody reads the logs, did it fail?"
+   ],
+   "tags": []
+  },
+  {
+   "id": "buzz",
+   "name": "X, X Everywhere",
+   "lines": 2,
+   "roles": [
+    "there is X",
+    "X everywhere"
+   ],
+   "shape": "everywhere",
+   "hint": "'X, X everywhere' about something that is suddenly all around.",
+   "example": [
+    "Subscriptions",
+    "Subscriptions everywhere"
+   ],
+   "tags": []
+  },
+  {
+   "id": "wonka",
+   "name": "Condescending Wonka",
+   "lines": 2,
+   "roles": [
+    "smug setup",
+    "smug jab"
+   ],
+   "shape": "sarcasm",
+   "hint": "Patronizing 'oh, you did X? tell me more'.",
+   "example": [
+    "Oh, you went serverless?",
+    "Tell me about the bill"
+   ],
+   "tags": []
+  },
+  {
+   "id": "mordor",
+   "name": "One Does Not Simply",
+   "lines": 2,
+   "roles": [
+    "one does not simply",
+    "do the thing"
+   ],
+   "shape": "impossible",
+   "hint": "'One does not simply...' for tasks that are never as easy as claimed.",
+   "example": [
+    "One does not simply",
+    "Deploy on a Friday"
+   ],
+   "tags": []
+  },
+  {
+   "id": "spiderman",
+   "name": "Spider-Man Pointing at Spider-Man",
+   "lines": 2,
+   "roles": [
+    "thing A",
+    "thing B (same)"
+   ],
+   "shape": "same-thing",
+   "hint": "Two things that are identical in disguise.",
+   "example": [
+    "Cloud migration",
+    "Moving your problems to someone else's computer"
+   ],
+   "tags": []
+  },
+  {
+   "id": "kermit",
+   "name": "Evil Kermit",
+   "lines": 2,
+   "roles": [
+    "innocent thought",
+    "the temptation"
+   ],
+   "shape": "temptation",
+   "hint": "Inner voice tempting you to do the bad thing.",
+   "example": [
+    "Me: I should write tests",
+    "Me: just ship it"
+   ],
+   "tags": []
+  },
+  {
+   "id": "facepalm",
+   "name": "Facepalm",
+   "lines": 2,
+   "roles": [
+    "what happened",
+    "reaction"
+   ],
+   "shape": "face-palm",
+   "hint": "Something so dumb you can only sigh.",
+   "example": [
+    "The pipeline failed",
+    "Because someone renamed a folder"
+   ],
+   "tags": []
+  },
+  {
+   "id": "keanu",
+   "name": "Conspiracy Keanu",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "what if"
+   ],
+   "shape": "what-if",
+   "hint": "Deadpan 'what if' thought.",
+   "example": [
+    "What if the real bugs",
+    "Were the features we shipped"
+   ],
+   "tags": []
+  },
+  {
+   "id": "mini-keanu",
+   "name": "Sad Keanu (Reeves)",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "sad reality"
+   ],
+   "shape": "sadness",
+   "hint": "Quiet sadness about a small everyday thing.",
+   "example": [
+    "Me: I'm a security engineer",
+    "Mom: Can you fix the printer?"
+   ],
+   "tags": []
+  },
+  {
+   "id": "agnes",
+   "name": "Agnes Harkness Winking",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "knowing wink"
+   ],
+   "shape": "smug",
+   "hint": "Smug 'finally, my moment' energy.",
+   "example": [
+    "Someone asks what OS I use",
+    "Finally, my moment"
+   ],
+   "tags": []
+  },
+  {
+   "id": "cb",
+   "name": "Confession Bear",
+   "lines": 2,
+   "roles": [
+    "confession setup",
+    "dark-ish confession"
+   ],
+   "shape": "confession",
+   "hint": "Harmless embarrassing confessions.",
+   "example": [
+    "I have trust issues",
+    "Even localhost refuses to connect"
+   ],
+   "tags": []
+  },
+  {
+   "id": "jw",
+   "name": "Jackie Chan WTF",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "confused reaction"
+   ],
+   "shape": "confusion",
+   "hint": "Total confusion about something that suddenly works/breaks.",
+   "example": [
+    "The deploy worked",
+    "Nobody touch anything"
+   ],
+   "tags": []
+  },
+  {
+   "id": "sad-biden",
+   "name": "Sad Joe Biden",
+   "lines": 2,
+   "roles": [
+    "status",
+    "sad detail"
+   ],
+   "shape": "sad-status",
+   "hint": "Sad relationship/status gag.",
+   "example": [
+    "Relationship status",
+    "Waiting for the Docker image to build"
+   ],
+   "tags": []
+  },
+  {
+   "id": "gandalf",
+   "name": "Gandalf",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "wizard answer"
+   ],
+   "shape": "wizard",
+   "hint": "You-shall-not-pass type gatekeeping.",
+   "example": [
+    "Merge to main",
+    "You shall not pass (failing tests)"
+   ],
+   "tags": []
+  },
+  {
+   "id": "noidea",
+   "name": "I Have No Idea What I'm Doing",
+   "lines": 2,
+   "roles": [
+    "situation",
+    "no idea"
+   ],
+   "shape": "clueless",
+   "hint": "Doing something with confidence and no clue.",
+   "example": [
+    "Me checking logs",
+    "I have no idea what I'm doing"
+   ],
+   "tags": []
+  },
+  {
+   "id": "officespace",
+   "name": "Office Space Milton / Bill Lumbergh",
+   "lines": 2,
+   "roles": [
+    "manager request",
+    "complaint"
+   ],
+   "shape": "office",
+   "hint": "Work absurdity from managers.",
+   "example": [
+    "Yeah, if you could deploy",
+    "That'd be great"
+   ],
+   "tags": []
+  },
+  {
+   "id": "blb",
+   "name": "Bad Luck Brian",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "unlucky result"
+   ],
+   "shape": "bad-luck",
+   "hint": "Things go wrong just because.",
+   "example": [
+    "Indents one YAML line",
+    "YAML ruined my weekend"
+   ],
+   "tags": []
+  },
+  {
+   "id": "grumpycat",
+   "name": "Grumpy Cat",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "grumpy conclusion"
+   ],
+   "shape": "grumpy",
+   "hint": "Grumpy one-liners and refusals.",
+   "example": [
+    "Production is down",
+    "Everyone remembers my phone number"
+   ],
+   "tags": []
+  },
+  {
+   "id": "stonks",
+   "name": "Stonks",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "stonks"
+   ],
+   "shape": "fake-win",
+   "hint": "A terrible decision that looks like a win.",
+   "example": [
+    "Deleted all logs",
+    "Disk space freed"
+   ],
+   "tags": []
+  },
+  {
+   "id": "doge",
+   "name": "Doge",
+   "lines": 2,
+   "roles": [
+    "setup",
+    "such wow"
+   ],
+   "shape": "doge",
+   "hint": "Many-words-of-wow gag.",
+   "example": [
+    "Commit first",
+    "Think later"
+   ],
+   "tags": []
+  },
+  {
+   "id": "cmm",
+   "name": "Change My Mind",
+   "lines": 1,
+   "roles": [
+    "claim"
+   ],
+   "shape": "claim",
+   "hint": "Hot take with a single text box.",
+   "example": [
+    "Tabs vs spaces is a personality test"
+   ],
+   "tags": []
+  },
+  {
+   "id": "bad",
+   "name": "Bad Joke Eel / 'Born to ...'",
+   "lines": 2,
+   "roles": [
+    "born to ...",
+    "forced to ..."
+   ],
+   "shape": "born-to",
+   "hint": "'Born to X, forced to Y' contrasts.",
+   "example": [
+    "Born to code",
+    "Forced to attend meetings"
+   ],
+   "tags": []
+  },
+  {
+   "id": "exit",
+   "name": "Left Exit 12 Off Ramp",
+   "lines": 3,
+   "roles": [
+    "the safe path",
+    "the exit",
+    "what you actually pick"
+   ],
+   "shape": "swerve",
+   "hint": "Swerving off the sensible path for the bad option.",
+   "example": [
+    "Wait until Monday",
+    "Deploy on Friday",
+    "Me"
+   ],
+   "tags": []
+  },
+  {
+   "id": "db",
+   "name": "Distracted Boyfriend",
+   "lines": 3,
+   "roles": [
+    "current thing",
+    "new shiny thing",
+    "the one being ignored"
+   ],
+   "shape": "distraction",
+   "hint": "Chasing the new shiny thing while ignoring what you have.",
+   "example": [
+    "New framework",
+    "Me",
+    "Working code"
+   ],
+   "tags": []
+  },
+  {
+   "id": "ds",
+   "name": "Daily Struggle (Two Buttons)",
+   "lines": 3,
+   "roles": [
+    "button 1",
+    "button 2",
+    "sweaty person"
+   ],
+   "shape": "dilemma",
+   "hint": "Impossible choice between two bad options.",
+   "example": [
+    "Fix bug",
+    "Add feature",
+    "Developer"
+   ],
+   "tags": []
+  },
+  {
+   "id": "handshake",
+   "name": "Epic Handshake",
+   "lines": 3,
+   "roles": [
+    "person 1",
+    "person 2",
+    "what they agree on"
+   ],
+   "shape": "agree",
+   "hint": "Two opposites uniting over one thing.",
+   "example": [
+    "Frontend",
+    "Backend",
+    "Blaming DevOps"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pigeon",
+   "name": "Is This a Pigeon?",
+   "lines": 3,
+   "roles": [
+    "subject",
+    "the thing",
+    "wrong label"
+   ],
+   "shape": "mislabel",
+   "hint": "Mislabeling something obvious.",
+   "example": [
+    "Engineer",
+    "PowerPoint",
+    "Is this Photoshop?"
+   ],
+   "tags": []
+  },
+  {
+   "id": "gru",
+   "name": "Gru's Plan",
+   "lines": 4,
+   "roles": [
+    "step 1",
+    "step 2",
+    "step 3 (backfires)",
+    "repeat step 3"
+   ],
+   "shape": "plan-backfires",
+   "hint": "A plan that goes wrong by step 3, step 4 repeats it.",
+   "example": [
+    "Write quick fix",
+    "Test it",
+    "It breaks prod",
+    "It breaks prod"
+   ],
+   "tags": []
+  },
+  {
+   "id": "gb",
+   "name": "Galaxy Brain (Expanding Brain)",
+   "lines": 4,
+   "roles": [
+    "step 1",
+    "step 2",
+    "step 3",
+    "step 4"
+   ],
+   "shape": "escalation-4",
+   "hint": "Four increasingly absurd levels of 'enlightenment'.",
+   "example": [
+    "Write tests",
+    "Write more tests",
+    "Skip tests",
+    "Test in production"
+   ],
+   "tags": []
+  },
+  {
+   "id": "right",
+   "name": "Always Has Been",
+   "lines": 2,
+   "roles": [
+    "wait, it's X?",
+    "always has been"
+   ],
+   "shape": "reveal",
+   "hint": "Shocking revelation with a deadpan reply.",
+   "example": [
+    "Wait, it's all legacy code?",
+    "Always has been"
+   ],
+   "tags": []
+  }
+ ]
+}
