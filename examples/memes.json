@@ -1,0 +1,8 @@
+[
+  {"template": "drake", "text": ["Reading the error message", "Pasting it into a search bar"], "caption": "Every debugging session.", "hashtags": ["#dev", "#debugging"]},
+  {"template": "fine", "text": ["All tests green", "Tests: 0 run"]},
+  {"template": "gb", "text": ["Write tests", "Write more tests", "Skip tests", "Test in production"]},
+  {"template": "db", "text": ["New framework", "Me", "Working code"]},
+  {"template": "exit", "text": ["Wait until Monday", "Deploy on Friday", "Me"]},
+  {"template": "cmm", "text": ["Tabs vs spaces is a personality test"]}
+]
