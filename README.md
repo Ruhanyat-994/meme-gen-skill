@@ -7,10 +7,12 @@
 ![python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)
 ![dependencies: none](https://img.shields.io/badge/dependencies-none-brightgreen)
 
+<p align="center"><img src="assets/demo.gif" alt="Demo: install meme-gen, open your AI agent, say meme gen, get memes" width="720"><br><sub>Demo animation of the workflow. The memes shown are real meme-gen output.</sub></p>
+
 **Say "meme gen, 10 memes about Kubernetes" to your AI agent and get finished, funny meme images in your folder in about a minute.** A free, open-source Agent Skill (`SKILL.md`) plus a zero-dependency Python CLI. No API key, no image-model credits.
 
 <p align="center">
-<img src="assets/demo-drake.jpg" width="23%"> <img src="assets/demo-fine.jpg" width="23%"> <img src="assets/demo-db.jpg" width="23%"> <img src="assets/demo-cmm.jpg" width="23%">
+<img src="assets/demo-drake.jpg" width="23%"> <img src="assets/demo-fine.jpg" width="23%"> <img src="assets/demo-gb.jpg" width="23%"> <img src="assets/demo-cmm.jpg" width="23%">
 </p>
 
 *Made with one prompt, no editing.*
